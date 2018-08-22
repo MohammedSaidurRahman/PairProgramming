@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+
+public class BlackJack {
+
+	public static void main(String[] args) {
+		
+	int a;
+	int b;
+	
+	            Scanner numIn = new Scanner(System.in);
+
+	        System.out.println("Enter First Number:");
+	        a = numIn.nextInt();
+	        System.out.println("Enter Second Number:");
+	        b = numIn.nextInt();
+
+	    if (a > b) {
+	        System.out.println(a + " is bigger"); 
+	        }
+	    
+	    else if (a>21 || b>21) {
+	    	a = 0;
+	    	b = 0;
+	    	
+	    	System.out.println(a + b);
+	    }
+	    
+	    else {
+	        System.out.println(b + " is bigger");
+	        }
+
+	    }
+}
+

@@ -1,0 +1,14 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Person john = new Person("john", 12, "Trainee");
+		
+		john.showName();
+		john.showAge();
+		john.showJob();
+		
+	}
+	
+}

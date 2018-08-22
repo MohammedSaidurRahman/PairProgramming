@@ -1,0 +1,22 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		
+//		System.out.println(helloWorld());
+		
+		
+	
+	}
+	
+	
+	public String helloWorld() {
+		
+		String i = "Hello world";
+		
+		return i;
+		
+	}
+	
+}

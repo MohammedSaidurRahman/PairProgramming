@@ -1,0 +1,14 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Person john = new Person("john", 12, "Trainee");
+		
+		john.toString();
+		
+		System.out.println("The name is: "+john.showName()+ ", The Age is: "+john.showAge()+", The Job Title is: "+john.showJob());
+		
+	}
+	
+}

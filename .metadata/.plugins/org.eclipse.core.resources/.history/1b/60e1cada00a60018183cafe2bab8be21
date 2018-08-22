@@ -1,0 +1,37 @@
+import java.util.ArrayList;
+
+public class Pup {
+	private String Name;
+//	private int position; 
+	public Pup() {
+		
+	}
+	
+	public Pup(String string) {
+		this.Name = string; 
+//		this.position = position;
+	}
+	
+
+	public Pup getName(Pup Name) {
+		
+		return Name; 
+	}
+	public Pup remove(Pup Name) {
+		return Name;
+	}
+	 public String position(int pos) {
+		 String ret = "";
+		 int pup = 4;
+//			ArrayList<Integer> dog = new ArrayList<Integer>();
+		 int ar [] = new int [100]; 
+					
+			for(int i = 1; i <101; i++)
+			{	
+				ar[i-1]= i;
+				ret +=ar[i-1];
+				
+			}
+		 return ret;
+	 }
+}

@@ -1,0 +1,11 @@
+
+public class Car extends Vehicles {
+
+	public Car(String make, String model, int engineSize, int wheels) {
+		super(make, model, engineSize, wheels);
+		// TODO Auto-generated constructor stub
+	}
+
+	Vehicles lexus = new Vehicles("Lexus", "IS200", 2, 4);
+	
+}

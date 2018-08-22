@@ -1,0 +1,16 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Person john = new Person("john", 12, "Trainee");
+		
+		System.out.println(john.toString());
+		
+		john.equals(john);
+		
+		System.out.println("The name is: "+john.showName()+ ", The Age is: "+john.showAge()+", The Job Title is: "+john.showJob());
+		
+	}
+	
+}

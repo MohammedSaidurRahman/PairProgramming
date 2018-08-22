@@ -1,0 +1,18 @@
+
+public class Pup {
+	private String Name;
+	
+	public Pup(String string) {
+		this.Name = string; 
+	}
+	
+
+	public Pup getName(Pup Name) {
+		
+		return Name; 
+	}
+	public Pup remove(Pup Name) {
+		return Name;
+	}
+	
+}

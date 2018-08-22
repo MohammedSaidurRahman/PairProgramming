@@ -1,0 +1,40 @@
+
+public class Person {
+
+	public String name;
+	private int age;
+	private String jobTitle;
+	
+	public Person(String name, int age, String jobTitle) {
+		
+		this.name = name;
+		this.age = age;
+		this.jobTitle = jobTitle;
+	}
+	
+	public String showName() {
+		
+		return name;
+	}
+	
+	public int showAge() {
+		
+		return age;
+	}
+	
+	public String showJob() {
+		
+		return jobTitle;
+	}
+	
+	public String dataInfo() {
+		
+		return "The name is: "+ name + ", The Age is: "+ age +", The Job Title is: "+jobTitle;
+		
+	}
+	
+
+	
+	
+	
+}

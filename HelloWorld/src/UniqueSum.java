@@ -1,0 +1,26 @@
+
+public class UniqueSum {
+
+	int a;
+	int b;
+	int c;
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println(sumUnique(2,4,6));
+		
+		
+	}
+	
+	public static int sumUnique(int a,int b,int c) {
+		
+		if (a == b)
+		
+		
+		return a+b+c;
+	}
+	
+	
+	
+}

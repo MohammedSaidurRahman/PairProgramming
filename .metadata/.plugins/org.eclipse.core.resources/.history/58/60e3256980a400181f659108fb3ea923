@@ -1,0 +1,19 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		String i = "hellow world";
+		
+		System.out.println("hello");
+		
+		System.out.println(i);
+		
+
+		
+		
+	
+	}
+	
+
+}
